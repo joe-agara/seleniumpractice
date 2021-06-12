@@ -14,7 +14,7 @@ public class demoAutomation2 {
     public void login() {
         //Open Browser
 
-        System.out.println("Opening chrome browser");
+        System.out.println("Open chrome browser");
 
         //Choose Chrome
         driver = chrome.open();
@@ -23,6 +23,8 @@ public class demoAutomation2 {
 
         //Open Facebook
         driver.get(baseURL);
+
+
 
         
 
